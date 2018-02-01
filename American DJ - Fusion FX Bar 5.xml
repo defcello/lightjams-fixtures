@@ -1,0 +1,91 @@
+<fixture>
+  <Id>5e1f9d6c-ee93-4726-8cf4-279ee30a5acb</Id>
+  <Name>Fusion FX Bar 5</Name>
+  <Manufacturer>American DJ</Manufacturer>
+  <CanOpenInEditor>True</CanOpenInEditor>
+  <version>1.00</version>
+  <revision>2</revision>
+  <Modes>
+    <mode id="54e24de2-83c1-4ed6-acf0-bda577cebf0f" name="7ch" description="">
+      <capabilities>
+        <Effect name="WHITE DIMMER/STROBE" precision="1">
+          <ranges>
+            <range name="OFF" shortName="off" min="0" max="2.745098" />
+            <range name="MASTER DIMMER 0% - 100%" shortName="dim" min="3.137255" max="74.509804" />
+            <range name="SOUND ACTIVE" shortName="sound" min="74.901961" max="78.431373" />
+            <range name="STROBING SLOW - FAST" shortName="strob" min="78.823529" max="96.862745" />
+            <range name="FULL ON" shortName="on" min="97.254902" max="100" />
+          </ranges>
+        </Effect>
+        <Effect name="MOON FLOWER DIMMER/STROBE" precision="1">
+          <ranges>
+            <range name="OFF" shortName="off" min="0" max="2.745098" />
+            <range name="MASTER DIMMER 0% - 100%" shortName="dim" min="3.137255" max="74.509804" />
+            <range name="SOUND ACTIVE" shortName="sound" min="74.901961" max="78.431373" />
+            <range name="STROBING SLOW - FAST" shortName="strob" min="78.823529" max="96.862745" />
+            <range name="FULL ON" shortName="on" min="97.254902" max="100" />
+          </ranges>
+        </Effect>
+        <Effect name="MOON FLOWER COLOR" precision="1">
+          <ranges>
+            <range name="RED" shortName="r" min="0" max="7.058824" />
+            <range name="RED &amp; GREEN" shortName="rg&amp;" min="7.45098" max="14.117647" />
+            <range name="GREEN" shortName="g" min="14.509804" max="21.176471" />
+            <range name="GREEN &amp; BLUE" shortName="gb&amp;" min="21.568627" max="28.627451" />
+            <range name="BLUE" shortName="b" min="29.019608" max="35.686275" />
+            <range name="RED &amp; BLUE" shortName="rb&amp;" min="36.078431" max="42.745098" />
+            <range name="RED, GREEN, &amp; BLUE" shortName="rgb&amp;" min="43.137255" max="49.803922" />
+            <range name="RED - GREEN" shortName="rg-" min="50.196078" max="62.352941" />
+            <range name="GREEN - BLUE" shortName="gb-" min="62.745098" max="74.901961" />
+            <range name="RED - BLUE" shortName="rb-" min="75.294118" max="87.45098" />
+            <range name="RED - GREEN - BLUE" shortName="rgb-" min="87.843137" max="100" />
+          </ranges>
+        </Effect>
+        <Effect name="MOON FLOWER ROTATION" precision="1">
+          <ranges>
+            <range name="NO ROTATION" shortName="none1" min="0" max="3.529412" />
+            <range name="CLOCKWISE ROTATION FAST - SLOW" shortName="cw" min="3.921569" max="47.058824" />
+            <range name="NO ROTATION" shortName="none2" min="47.45098" max="52.54902" />
+            <range name="COUNTER CLOCKWISE ROTATION SLOW - FAST" shortName="ccw" min="52.941176" max="96.078431" />
+            <range name="NO ROTATION" shortName="none3" min="96.470588" max="100" />
+          </ranges>
+        </Effect>
+        <Effect name="RED LASER" precision="1">
+          <ranges>
+            <range name="LASER OFF" shortName="off" min="0" max="49.803922" />
+            <range name="LASER ON" shortName="on" min="50.196078" max="100" />
+          </ranges>
+        </Effect>
+        <Effect name="GREEN LASER" precision="1">
+          <ranges>
+            <range name="LASER OFF" shortName="off" min="0" max="49.803922" />
+            <range name="LASER ON" shortName="on" min="50.196078" max="100" />
+          </ranges>
+        </Effect>
+        <Effect name="LASER ROTATION" precision="1">
+          <ranges>
+            <range name="NO ROTATION" shortName="none1" min="0" max="3.529412" />
+            <range name="CLOCKWISE ROTATION FAST-SLOW" shortName="cw" min="3.921569" max="47.058824" />
+            <range name="NO ROTATION" shortName="none2" min="47.45098" max="52.54902" />
+            <range name="COUNTER-CLOCKWISE ROTATION SLOW-FAST" shortName="ccw" min="52.941176" max="96.078431" />
+            <range name="NO ROTATION" shortName="none3" min="96.470588" max="100" />
+          </ranges>
+        </Effect>
+      </capabilities>
+      <actions>
+        <action name="Locate" duration="-1">
+          <channels nbChannels="7" />
+        </action>
+        <action name="Lamp on" duration="2">
+          <channels nbChannels="7" />
+        </action>
+        <action name="Lamp off" duration="6">
+          <channels nbChannels="7" />
+        </action>
+        <action name="Reset" duration="6">
+          <channels nbChannels="7" />
+        </action>
+      </actions>
+    </mode>
+  </Modes>
+</fixture>

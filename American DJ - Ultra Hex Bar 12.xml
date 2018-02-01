@@ -1,0 +1,316 @@
+<fixture>
+  <Id>c8af46fb-f349-42d2-914f-4ae3562583ad</Id>
+  <Name>Ultra Hex Bar 12</Name>
+  <Manufacturer>American DJ</Manufacturer>
+  <CanOpenInEditor>True</CanOpenInEditor>
+  <version>1.00</version>
+  <revision>11</revision>
+  <Modes>
+    <mode id="01a14f84-eba0-47e3-93ee-c81af592085c" name="6ch RGBWA Hue" description="">
+      <capabilities>
+        <RGBWA precision="1" />
+        <Dimmer name="UV" precision="1" />
+      </capabilities>
+      <actions>
+        <action name="Locate" duration="-1">
+          <channels nbChannels="6" />
+        </action>
+        <action name="Lamp on" duration="2">
+          <channels nbChannels="6" />
+        </action>
+        <action name="Lamp off" duration="6">
+          <channels nbChannels="6" />
+        </action>
+        <action name="Reset" duration="6">
+          <channels nbChannels="6" />
+        </action>
+      </actions>
+    </mode>
+    <mode id="23d07d6b-9832-40e1-9e28-202fcdedeeba" name="6ch Independent" description="">
+      <capabilities>
+        <Dimmer name="RED" precision="1" />
+        <Dimmer name="GREEN" precision="1" />
+        <Dimmer name="BLUE" precision="1" />
+        <Dimmer name="WHITE" precision="1" />
+        <Dimmer name="AMBER" precision="1" />
+        <Dimmer name="UV" precision="1" />
+      </capabilities>
+      <actions>
+        <action name="Locate" duration="-1">
+          <channels nbChannels="6" />
+        </action>
+        <action name="Lamp on" duration="2">
+          <channels nbChannels="6" />
+        </action>
+        <action name="Lamp off" duration="6">
+          <channels nbChannels="6" />
+        </action>
+        <action name="Reset" duration="6">
+          <channels nbChannels="6" />
+        </action>
+      </actions>
+    </mode>
+    <mode id="b4fb72ff-6987-469b-9917-f1d891f33d7f" name="7ch" description="">
+      <capabilities>
+        <Dimmer name="RED" precision="1" />
+        <Dimmer name="GREEN" precision="1" />
+        <Dimmer name="BLUE" precision="1" />
+        <Dimmer name="WHITE" precision="1" />
+        <Dimmer name="AMBER" precision="1" />
+        <Dimmer name="UV" precision="1" />
+        <Dimmer name="MASTER DIMMER" precision="1" />
+      </capabilities>
+      <actions>
+        <action name="Locate" duration="-1">
+          <channels nbChannels="7" />
+        </action>
+        <action name="Lamp on" duration="2">
+          <channels nbChannels="7" />
+        </action>
+        <action name="Lamp off" duration="6">
+          <channels nbChannels="7" />
+        </action>
+        <action name="Reset" duration="6">
+          <channels nbChannels="7" />
+        </action>
+      </actions>
+    </mode>
+    <mode id="78743817-65cd-4c27-8dbe-641649abfe60" name="8ch" description="">
+      <capabilities>
+        <Dimmer name="RED" precision="1" />
+        <Dimmer name="GREEN" precision="1" />
+        <Dimmer name="BLUE" precision="1" />
+        <Dimmer name="WHITE" precision="1" />
+        <Dimmer name="AMBER" precision="1" />
+        <Dimmer name="UV" precision="1" />
+        <Shutter name="STROBING" precision="1">
+          <ranges>
+            <range name="OFF" shortName="Off" min="0" max="12.156863" />
+            <range name="LED ON" shortName="On1" min="12.54902" max="24.705882" />
+            <range name="STROBING SLOW - FAST" shortName="Strob" min="25.098039" max="37.254902" />
+            <range name="LED ON" shortName="On2" min="37.647059" max="49.803922" />
+            <range name="PULSE STROBING SLOW - FAST" shortName="Pulse" min="50.196078" max="62.352941" />
+            <range name="LED ON" shortName="On3" min="62.745098" max="74.901961" />
+            <range name="RANDOM STROBING" shortName="Rand" min="75.294118" max="87.45098" />
+            <range name="LED ON" shortName="On4" min="87.843137" max="100" />
+          </ranges>
+        </Shutter>
+        <Dimmer name="MASTER DIMMER" precision="1" />
+      </capabilities>
+      <actions>
+        <action name="Locate" duration="-1">
+          <channels nbChannels="8" />
+        </action>
+        <action name="Lamp on" duration="2">
+          <channels nbChannels="8" />
+        </action>
+        <action name="Lamp off" duration="6">
+          <channels nbChannels="8" />
+        </action>
+        <action name="Reset" duration="6">
+          <channels nbChannels="8" />
+        </action>
+      </actions>
+    </mode>
+    <mode id="09a9ed44-19fa-485c-8519-58c9e940b0d7" name="12-Ch" description="">
+      <capabilities>
+        <Dimmer name="RED" precision="1" />
+        <Dimmer name="GREEN" precision="1" />
+        <Dimmer name="BLUE" precision="1" />
+        <Dimmer name="WHITE" precision="1" />
+        <Dimmer name="AMBER" precision="1" />
+        <Dimmer name="UV" precision="1" />
+        <Color name="COLOR MACROS" precision="1">
+          <ranges>
+            <range name="Off" r="0" g="0" b="0" min="0" max="1.176471" />
+            <range name="Red" r="255" g="0" b="0" min="1.568627" max="2.745098" />
+            <range name="Green" r="0" g="255" b="0" min="3.137255" max="4.313725" />
+            <range name="Blue" r="0" g="0" b="255" min="4.705882" max="5.882353" />
+            <range name="White" r="255" g="255" b="255" min="6.27451" max="7.45098" />
+            <range name="Amber" r="255" g="194" b="0" min="7.843137" max="9.019608" />
+            <range name="UV" r="64" g="0" b="128" min="9.411765" max="10.588235" />
+            <range name="R+G" r="255" g="255" b="0" min="10.980392" max="12.156863" />
+            <range name="R+B" r="255" g="0" b="255" min="12.54902" max="13.72549" />
+            <range name="R+W" r="255" g="128" b="128" min="14.117647" max="15.294118" />
+            <range name="R+A" r="255" g="97" b="0" min="15.686275" max="16.862745" />
+            <range name="R+UV" r="255" g="0" b="102" min="17.254902" max="18.431373" />
+            <range name="G+B" r="0" g="255" b="255" min="18.823529" max="20" />
+            <range name="G+W" r="128" g="255" b="128" min="20.392157" max="21.568627" />
+            <range name="G+A" r="145" g="255" b="0" min="21.960784" max="23.137255" />
+            <range name="G+UV" r="64" g="255" b="128" min="23.529412" max="24.705882" />
+            <range name="B+W" r="128" g="128" b="255" min="25.098039" max="26.27451" />
+            <range name="B+A" r="255" g="194" b="255" min="26.666667" max="27.843137" />
+            <range name="B+UV" r="43" g="0" b="255" min="28.235294" max="29.411765" />
+            <range name="W+A" r="255" g="225" b="128" min="29.803922" max="30.980392" />
+            <range name="W+UV" r="212" g="170" b="255" min="31.372549" max="32.54902" />
+            <range name="A+UV" r="255" g="225" b="128" min="32.941176" max="34.117647" />
+            <range name="R+G+B" r="255" g="255" b="255" min="34.509804" max="35.686275" />
+            <range name="R+G+W" r="255" g="255" b="128" min="36.078431" max="37.254902" />
+            <range name="R+G+A" r="255" g="225" b="0" min="37.647059" max="38.823529" />
+            <range name="R+G+UV" r="255" g="204" b="102" min="39.215686" max="40.392157" />
+            <range name="R+B+W" r="255" g="128" b="255" min="40.784314" max="41.960784" />
+            <range name="R+B+A" r="255" g="97" b="128" min="42.352941" max="43.529412" />
+            <range name="R+B+UV" r="212" g="0" b="255" min="43.921569" max="45.098039" />
+            <range name="R+W+A" r="255" g="150" b="85" min="45.490196" max="46.666667" />
+            <range name="R+W+UV" r="255" g="113" b="170" min="47.058824" max="48.235294" />
+            <range name="R+A+UV" r="255" g="86" b="57" min="48.627451" max="49.803922" />
+            <range name="G+B+W" r="128" g="255" b="255" min="50.196078" max="51.372549" />
+            <range name="G+B+A" r="145" g="255" b="145" min="51.764706" max="52.941176" />
+            <range name="G+B+UV" r="43" g="170" b="255" min="53.333333" max="54.509804" />
+            <range name="G+W+A" r="185" g="255" b="92" min="54.901961" max="56.078431" />
+            <range name="G+W+UV" r="160" g="255" b="192" min="56.470588" max="57.647059" />
+            <range name="G+A+UV" r="181" g="255" b="73" min="58.039216" max="59.215686" />
+            <range name="B+W+A" r="255" g="225" b="255" min="59.607843" max="60.784314" />
+            <range name="B+W+UV" r="128" g="102" b="255" min="61.176471" max="62.352941" />
+            <range name="B+A+UV" r="212" g="129" b="255" min="62.745098" max="63.921569" />
+            <range name="W+A+UV" r="255" g="199" b="170" min="64.313725" max="65.490196" />
+            <range name="R+G+B+W" r="255" g="255" b="255" min="65.882353" max="67.058824" />
+            <range name="R+G+B+A" r="255" g="225" b="128" min="67.45098" max="68.627451" />
+            <range name="R+G+B+UV" r="212" g="170" b="255" min="69.019608" max="70.196078" />
+            <range name="R+G+W+A" r="255" g="235" b="85" min="70.588235" max="71.764706" />
+            <range name="R+G+W+UV" r="255" g="227" b="170" min="72.156863" max="73.333333" />
+            <range name="R+G+A+UV" r="255" g="199" b="57" min="73.72549" max="74.901961" />
+            <range name="R+B+W+A" r="255" g="150" b="170" min="75.294118" max="76.470588" />
+            <range name="R+B+W+UV" r="229" g="102" b="255" min="76.862745" max="78.039216" />
+            <range name="R+B+A+UV" r="255" g="86" b="170" min="78.431373" max="79.607843" />
+            <range name="R+W+A+UV" r="255" g="138" b="118" min="80" max="81.176471" />
+            <range name="G+B+W+A" r="185" g="255" b="185" min="81.568627" max="82.745098" />
+            <range name="G+B+W+UV" r="128" g="204" b="255" min="83.137255" max="84.313725" />
+            <range name="G+B+A+UV" r="181" g="255" b="218" min="84.705882" max="85.882353" />
+            <range name="G+W+A+UV" r="208" g="255" b="139" min="86.27451" max="87.45098" />
+            <range name="B+W+A+UV" r="229" g="179" b="255" min="87.843137" max="89.019608" />
+            <range name="R+G+B+W+A" r="255" g="235" b="170" min="89.411765" max="90.588235" />
+            <range name="R+G+B+W+UV" r="229" g="204" b="255" min="90.980392" max="92.156863" />
+            <range name="R+G+B+A+UV" r="255" g="199" b="170" min="92.54902" max="93.72549" />
+            <range name="R+G+W+A+UV" r="255" g="217" b="118" min="94.117647" max="95.294118" />
+            <range name="R+B+W+A+UV" r="255" g="138" b="196" min="95.686275" max="96.862745" />
+            <range name="G+B+W+A+UV" r="208" g="255" b="231" min="97.254902" max="98.431373" />
+            <range name="R+G+B+W+A+UV" r="255" g="217" b="196" min="98.823529" max="100" />
+          </ranges>
+        </Color>
+        <Shutter name="STROBING" precision="1">
+          <ranges>
+            <range name="OFF" shortName="Off" min="0" max="12.156863" />
+            <range name="LED ON" shortName="On1" min="12.54902" max="24.705882" />
+            <range name="STROBING SLOW - FAST" shortName="Strob" min="25.098039" max="37.254902" />
+            <range name="LED ON" shortName="On2" min="37.647059" max="49.803922" />
+            <range name="PULSE STROBING SLOW - FAST" shortName="Pulse" min="50.196078" max="62.352941" />
+            <range name="LED ON" shortName="On3" min="62.745098" max="74.901961" />
+            <range name="RANDOM STROBING" shortName="Rand" min="75.294118" max="87.45098" />
+            <range name="LED ON" shortName="On4" min="87.843137" max="100" />
+          </ranges>
+        </Shutter>
+        <Dimmer name="MASTER DIMMER" precision="1" />
+        <Color name="PROGRAMS" precision="1">
+          <ranges>
+            <range name="OFF" min="0" max="0" />
+            <range name="PROGRAM 1" shortName="p1" min="0.392157" max="9.411765" />
+            <range name="PROGRAM 2" shortName="p2" min="9.803922" max="13.72549" />
+            <range name="PROGRAM 3" shortName="p3" min="14.117647" max="18.039216" />
+            <range name="PROGRAM 4" shortName="p4" min="18.431373" max="22.352941" />
+            <range name="PROGRAM 5" shortName="p5" min="22.745098" max="26.666667" />
+            <range name="PROGRAM 6" shortName="p6" min="27.058824" max="30.980392" />
+            <range name="PROGRAM 7" shortName="p7" min="31.372549" max="35.294118" />
+            <range name="PROGRAM 8" shortName="p8" min="35.686275" max="39.607843" />
+            <range name="PROGRAM 9" shortName="p9" min="40" max="43.921569" />
+            <range name="PROGRAM 10" shortName="p10" min="44.313725" max="48.235294" />
+            <range name="PROGRAM 11" shortName="p11" min="48.627451" max="52.54902" />
+            <range name="PROGRAM 12" shortName="p12" min="52.941176" max="56.862745" />
+            <range name="PROGRAM 13" shortName="p13" min="57.254902" max="61.176471" />
+            <range name="PROGRAM 14" shortName="p14" min="61.568627" max="65.490196" />
+            <range name="PROGRAM 15" shortName="p15" min="65.882353" max="69.803922" />
+            <range name="PROGRAM 16" shortName="p16" min="70.196078" max="74.117647" />
+            <range name="PROGRAM 17" shortName="p17" min="74.509804" max="78.431373" />
+            <range name="PROGRAM 18" shortName="p18" min="78.823529" max="82.745098" />
+            <range name="PROGRAM 19" shortName="p19" min="83.137255" max="87.058824" />
+            <range name="PROGRAM 20" shortName="p20" min="87.45098" max="91.372549" />
+            <range name="SOUND ACTIVE PROGRAMS" shortName="sound" min="91.764706" max="100" />
+          </ranges>
+        </Color>
+        <Color name="PROGRAM SPEED/SENSITIVITY" precision="1">
+          <ranges>
+            <range name="SLOW/LESS-FAST/MORE" shortName="ls-mr" min="0" max="100" />
+          </ranges>
+        </Color>
+        <Color name="DIMMER MODE" precision="1">
+          <ranges>
+            <range name="STANDARD" shortName="std" min="0" max="7.843137" />
+            <range name="STAGE" shortName="stg" min="8.235294" max="15.686275" />
+            <range name="TV" shortName="tv" min="16.078431" max="23.529412" />
+            <range name="ARCHITECTURAL" shortName="archi" min="23.921569" max="31.372549" />
+            <range name="THEATRE" shortName="thtr" min="31.764706" max="39.215686" />
+            <range name="DEFAULT DIMMER SETTING" shortName="def" min="39.607843" max="100" />
+          </ranges>
+        </Color>
+      </capabilities>
+      <actions>
+        <action name="Locate" duration="-1">
+          <channels nbChannels="12" />
+        </action>
+        <action name="Lamp on" duration="2">
+          <channels nbChannels="12" />
+        </action>
+        <action name="Lamp off" duration="6">
+          <channels nbChannels="12" />
+        </action>
+        <action name="Reset" duration="6">
+          <channels nbChannels="12" />
+        </action>
+      </actions>
+    </mode>
+    <mode id="896f205f-181b-4943-8753-9104c48f549f" name="36-Ch" description="">
+      <capabilities>
+        <Dimmer name="RED PIXEL 1&amp;2" precision="1" />
+        <Dimmer name="GREEN PIXEL 1&amp;2" precision="1" />
+        <Dimmer name="BLUE PIXEL 1&amp;2" precision="1" />
+        <Dimmer name="WHITE PIXEL 1&amp;2" precision="1" />
+        <Dimmer name="AMBER PIXEL 1&amp;2" precision="1" />
+        <Dimmer name="UV PIXEL 1&amp;2" precision="1" />
+        <Dimmer name="RED PIXEL 3&amp;4" precision="1" />
+        <Dimmer name="GREEN PIXEL 3&amp;4" precision="1" />
+        <Dimmer name="BLUE PIXEL 3&amp;4" precision="1" />
+        <Dimmer name="WHITE PIXEL 3&amp;4" precision="1" />
+        <Dimmer name="AMBER PIXEL 3&amp;4" precision="1" />
+        <Dimmer name="UV PIXEL 3&amp;4" precision="1" />
+        <Dimmer name="RED PIXEL 5&amp;6" precision="1" />
+        <Dimmer name="GREEN PIXEL 5&amp;6" precision="1" />
+        <Dimmer name="BLUE PIXEL 5&amp;6" precision="1" />
+        <Dimmer name="WHITE PIXEL 5&amp;6" precision="1" />
+        <Dimmer name="AMBER PIXEL 5&amp;6" precision="1" />
+        <Dimmer name="UV PIXEL 5&amp;6" precision="1" />
+        <Dimmer name="RED PIXEL 7&amp;8" precision="1" />
+        <Dimmer name="GREEN PIXEL 7&amp;8" precision="1" />
+        <Dimmer name="BLUE PIXEL 7&amp;8" precision="1" />
+        <Dimmer name="WHITE PIXEL 7&amp;8" precision="1" />
+        <Dimmer name="AMBER PIXEL 7&amp;8" precision="1" />
+        <Dimmer name="UV PIXEL 7&amp;8" precision="1" />
+        <Dimmer name="RED PIXEL 9&amp;10" precision="1" />
+        <Dimmer name="GREEN PIXEL 9&amp;10" precision="1" />
+        <Dimmer name="BLUE PIXEL 9&amp;10" precision="1" />
+        <Dimmer name="WHITE PIXEL 9&amp;10" precision="1" />
+        <Dimmer name="AMBER PIXEL 9&amp;10" precision="1" />
+        <Dimmer name="UV PIXEL 9&amp;10" precision="1" />
+        <Dimmer name="RED PIXEL 11&amp;12" precision="1" />
+        <Dimmer name="GREEN PIXEL 11&amp;12" precision="1" />
+        <Dimmer name="BLUE PIXEL 11&amp;12" precision="1" />
+        <Dimmer name="WHITE PIXEL 11&amp;12" precision="1" />
+        <Dimmer name="AMBER PIXEL 11&amp;12" precision="1" />
+        <Dimmer name="UV PIXEL 11&amp;12" precision="1" />
+      </capabilities>
+      <actions>
+        <action name="Locate" duration="-1">
+          <channels nbChannels="36" />
+        </action>
+        <action name="Lamp on" duration="2">
+          <channels nbChannels="36" />
+        </action>
+        <action name="Lamp off" duration="6">
+          <channels nbChannels="36" />
+        </action>
+        <action name="Reset" duration="6">
+          <channels nbChannels="36" />
+        </action>
+      </actions>
+    </mode>
+  </Modes>
+</fixture>
